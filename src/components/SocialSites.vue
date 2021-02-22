@@ -14,9 +14,6 @@
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
-
-  <font-awesome-icon icon="twitter" class="icons"></font-awesome-icon>
-  <font-awesome-icon icon="facebook" class="icons"></font-awesome-icon>
 </template>
 
 <script setup>
@@ -32,8 +29,5 @@ const state = reactive({ count: 0 });
 <style scoped>
 a {
   color: #42b983;
-}
-.icons {
-  width: 48px;
 }
 </style>
